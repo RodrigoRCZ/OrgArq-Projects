@@ -20,7 +20,7 @@ loop:
 
 	jmp loop
 
-		halt
+	halt
 
 VoltaIni:
 	loadn r0, #25		; Posição Inicial
@@ -38,7 +38,7 @@ Delay:
 	
 	Loadn R1, #15   
    	Delay_volta2:				
-		Loadn R0, #60000		; Tamanho do Delay
+		Loadn R0, #60000		; Intensidade do Delay
 		
    		Delay_volta1: 
 			dec R0					
